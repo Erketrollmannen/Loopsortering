@@ -7,7 +7,7 @@
 # Date: 19.07.2020
 
 
-# Import stuff. 
+# -----[ Import stuff ]----- 
 
 import os
 import PyPDF2
