@@ -25,7 +25,7 @@ pip3 install --user PyPDF2
 
 1. Scan ein bonke med looptegninger.
 
-2. Gjer dei lesbar med Adobe Acrobat sin Scan & OCR, Recognize Text funksjon.
+2. Gjer det scanna dokumentet lesbart med Adobe Acrobat sin Scan & OCR, Recognize Text funksjon.
 
 3. Split det storedokumentet i mange filer slik at det blir ei side per fil. Dette gjeres også med Adobe Acrobat. 
 
