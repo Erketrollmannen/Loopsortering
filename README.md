@@ -7,13 +7,14 @@ Lite script som leiter sorterer looptegninger etter utestasjon og tag.
 Programet scanner alle PDFer som ligger i mappa programmet blir kjørt frå. Den oppreter så ei mappe per utestasjon.  Den leiter etter ein streng som har samme mønster som eit Tag. Taget blir det nye navnet på fila.
 Dersom programmet finner fleire tag, vil den velge den første. Filen blir så flytta til mappa med utestasjonen som den fant. Dersom loopen går i fleire utestasjoner vil den velge den første den fant. 
 
+Dersom ein loopteging er merket "CANCELED" vil den bli flyttet til ei mappe med navn "CANCELED"
 
 
 ## Krav
 
 For å kunne bruke programet må ein ha Python interpreteren installert. Den finner du på AccsessIT. For meir info om å få Python til å kjøre på Equinor PC sjå [Equinor Wiki](https://wiki.equinor.com/wiki/index.php/Software:Python)
 
-Følgende biblotek er må installeres:
+Følgende bibliotek er må installeres:
 
 - PyPDF2
 
