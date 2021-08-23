@@ -42,7 +42,7 @@ for s in substations:
 pdffiles = []
 
 for filename in os.listdir("."):
-    if filename.endswith(".pdf"):
+    if filename.endswith(".pdf")  or filename.endswith(".PDF"):
         pdffiles.append(filename)
 
 print(pdffiles)
@@ -134,8 +134,3 @@ for filename in pdffiles:
         # If moving or renaming fails, print failed, continue.
         print("Failed to move file " + str(filename))
         continue
-        
-    
-                
-
-
